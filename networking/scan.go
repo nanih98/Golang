@@ -14,8 +14,8 @@ func args() {
 
 func main() {
 	args()
-	
-	for i := 1; i <= 1024; i++ {
+
+	for i := 1; i <= 65535; i++ {
 		address := fmt.Sprintf(os.Args[1]+":%d", i)
 		//fmt.Printf(address)
 		conn, err := net.Dial("tcp", address)
@@ -23,7 +23,7 @@ func main() {
 			// port is closed or filtered
 			//fmt.Printf("Port %d is closed \n", i)
 			continue
-		}		
+		}
 		conn.Close()
 		fmt.Printf("%d open \n", i)
 	}
