@@ -1,0 +1,12 @@
+curl - X POST - H "Authorization: Zoho-oauthtoken 1000.b126f3303e821720f1477f92be351b3c.afdc68b48b67186d79109510bdf6f787" \
+    "https://people.zoho.com/people/api/attendance?dateFormat=dd/MM/yyyy+HH:mm:ss&checkIn=11/02/2022+09:30:45&checkOut=11/02/2022+18:30:45&empId=2051&emailId=2051&mapId=767099910"
+
+
+
+curl -X POST "https://people.zoho.com/people/api/attendance?authtoken=1000.730250f049a2ac25f69ea20a1aa52522.a9c7730a6670a4a453d0a5460ac67620&dateFormat=dd/MM/yyyy+HH:mm:ss&checkIn=11/02/2022+09:35:59:25&emailId=dromero@edrans.com"
+
+
+
+
+
+curl -X POST -H "Authorization: Zoho-oauthtoken 1000.b6a440f58850450e7e628080e7067c89.358b72500b11a773f2bc068a3d4e86ce" https://people.zoho.com/people/api/attendance?dateFormat=dd/MM/yyyy+HH:mm:ss&checkIn=11/02/2022+09:30:45&checkOut=11/02/2022+18:45:13&empId=2051&emailId=dromero@edrans.com&mapId=2051
